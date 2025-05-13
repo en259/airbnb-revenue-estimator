@@ -52,7 +52,6 @@ df.groupby('neighbourhood_group_cleansed')['revenue_to_occupancy_ratio'].mean()
 
 df.groupby('room_type')['revenue_to_occupancy_ratio'].mean()
 
-!pip install ace_tools
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -254,9 +253,7 @@ plt.legend(title="Room Type", bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
 plt.show()
 
-!pip install streamlit pyngrok
 
-!ngrok config add-authtoken "2x0gL5KRAghqN3ULVulinFfnpMq_7wGqggYgYztjCqwzSPsFW"
 
 import pandas as pd
 
